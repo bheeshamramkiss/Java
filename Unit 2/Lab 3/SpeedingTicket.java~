@@ -1,0 +1,19 @@
+/**
+ * Date: Oct. 2017
+ * Author: Bheesham Ramkissoon
+ * Description: Determines the fine for speeding given the speed the user was caught at
+ */
+public class SpeedingTicket {
+    
+    
+    public static void main(String[] args) { 
+       double fine;  // varibale for the fine the driver will be given
+       int speed;  // variable for the driver's speed
+       String answer = "Yes"; // variable used to restart the program
+       
+       //input
+        speed = Integer.parseInt(JOptionPane.showInputDialog(null, "Hey, what speed were you caught at?"));
+    }
+
+    
+}

@@ -1,0 +1,20 @@
+import javax.swing.*;
+import java.text.*;
+/**
+ * Date: Sept. 2017
+ * Author: Bheesham Ramkisson
+ * Description: Converts percentages to levels
+ */
+public class MarkConverter {
+    
+    
+    public static void main(String[] args) { 
+       Double percent; // decaring variables for percentile
+       
+       NumberFormat number = NumberFormat.getInstance ();  
+       number.setMaximumFractionDigits (2);
+        
+    }
+
+    
+}

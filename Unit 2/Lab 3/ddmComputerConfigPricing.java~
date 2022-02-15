@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+import java.text.*;
+/**
+ * Date: Sept. 2017
+ * Author: Bheesham Ramkissoon
+ * Description: A program that will give the price for a computer given the hardrive and RAM selection
+ */
+public class ddmComputerConfigPricing {
+    
+    
+    public static void main(String[] args) { 
+        String[] choices = { "4GB RAM, 500GB HDD", "4GB RAM, 750GB HDD", "8GB RAM, 500GB HDD", "8GB RAM, 750GB HDD", "16GB RAM, 500GB HDD", "16GB RAM, 750GB HDD" };
+        
+    } // ends main    
+} // ends class

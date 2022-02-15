@@ -1,0 +1,15 @@
+import javax.swing.*;
+/**
+ * Date: Oct. 2017
+ * Author: Bheesham Ramkissoon
+ * Description:
+ */
+public class CapitalizeWord {
+    
+    
+    public static void main(String[] args) { 
+        
+    }
+
+    
+}

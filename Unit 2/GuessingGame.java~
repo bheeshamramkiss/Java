@@ -1,0 +1,14 @@
+/**
+ * Date: Sept. 2017
+ * Author: Bheesham Ramkissoon
+ * Description: This is a guessing game where the user enterss a number from 1 to 10.
+ */
+public class GuessingGame {
+    
+    
+    public static void main(String[] args) { 
+        
+    }
+
+    
+}

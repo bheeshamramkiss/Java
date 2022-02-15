@@ -1,0 +1,15 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class DrawBuilding {
+    
+    public DrawBuilding() { 
+        /* YOUR CONSTRUCTOR CODE HERE*/
+    }
+    
+    public static void main(String[] args) { 
+        
+    }
+
+    
+}

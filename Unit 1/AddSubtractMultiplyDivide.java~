@@ -1,0 +1,34 @@
+import javax.swing.* ; // import for dialog box library
+import java.text.*;  // importing to allow me to format numbers to 2 decimals
+/**
+ * Date: Sept. 2017
+ * Author: Bheesham Ramkissoon
+ * Description: Will take two numbers and show their sum, difference, quotient, and product.
+ */
+public class AddSubtractMultiplyDivide {
+    
+    
+    public static void main(String[] args) { 
+       Double number1, number2, sum, quotient, product, difference;  // variables for two numbers, sum, quotient, prodcut, and differenece.
+       
+       NumberFormat number = NumberFormat.getInstance ();  // formatting numbers to two decimal places
+        number.setMaximumFractionDigits (2);
+       
+       //input
+       number1 = Double.parseDouble (JOptionPane.showInputDialog (null, "Welcome! Please tell me your first number."));  //prompts the user for the first number
+       number2 = Double.parseDouble (JOptionPane.showInputDialog (null, "Thank You! Now please tell me your second number."));  // prompts user for second number
+                                                                                                                                // entry
+       //processing
+       sum = number1 + number2;
+       difference = number1 - number2;
+       product = number1 * number2;
+       quotient = number1 / number2;
+           
+       //output
+       JOptionPane.showMessageDialog (null, "Okay,\nafter some hard work,\n i found the following of your numbers:\nSum: " + number.format(sum) + "\nDifference: "
+                                          + number.format(difference) + "\nProduct: " + number.format(product) + "\nQuotient: " + number.format(quotient));
+                                          
+    }
+
+    
+}
