@@ -1,0 +1,6 @@
+Welcome to Space Shooters!
+
+There are invaders attacking your ship, your job is to eliminate them.
+Use the arrow keys to move your spaceships and use the space bar to shoot
+Watch out for the invaders, as they can shoot too!
+EOF
