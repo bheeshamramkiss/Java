@@ -1,0 +1,15 @@
+14
+street.charAt(1) ;
+street.toUpperCase( ); 
+street.concat(address);
+address.concat(street);
+address.replace(‘5’,’8’);
+address.replace(‘6’,’8’);
+street.substring(5);
+street.substring(4,7);
+address.indexOf(“45”);
+address.indexOf(“5”); 
+address.equals(“45”);
+street.length();
+street.substring(0,2).concat(“ hat”);
+street.split(" ")[1];
